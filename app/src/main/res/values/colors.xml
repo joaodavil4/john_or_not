@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand color. -->
+    <color name="colorPrimary">@color/black</color>
+    <color name="colorPrimaryVariant">@color/blackLight</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <!-- Secondary brand color. -->
+    <color name="colorSecondary">@color/purple</color>
+    <color name="colorSecondaryVariant">@color/purpleDark</color>
+    <color name="colorOnSecondary">@color/black</color>
+
+    <color name="purple">#691b99</color>
+    <color name="purpleLight">#9b4dcb</color>
+    <color name="purpleDark">#37006a</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#212121</color>
+    <color name="blackLight">#484848</color>
+    <color name="blackDark">#000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
