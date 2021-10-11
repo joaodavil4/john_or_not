@@ -15,6 +15,14 @@
         android:padding="16dp"
         tools:context=".main.MainActivity">
 
+        <fragment
+            android:id="@+id/titleFragment"
+            android:name="com.jp.aboutme.main.SoulFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"

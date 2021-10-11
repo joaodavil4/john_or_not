@@ -3,7 +3,7 @@
 
     <string name="learn_more">Learn more…</string>
 
-    <string name="iamjon">I am Jon or \'João'</string>
+    <string name="iamjon">I am Jon or \'João\'</string>
     <string name="bio">Hi, my name is João, also Jon :D.
 \n\nI love videogames.
 \n\nKind of addicted to it, but not so much.
@@ -12,4 +12,6 @@
 \nAnd is very funny to discover new foods that I always denied like the famous Broccoli.
 \n\nI love to play sports, like Swimming, Running, Cycling and Bodybuilding too :)
 \nI think, though.\n\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
