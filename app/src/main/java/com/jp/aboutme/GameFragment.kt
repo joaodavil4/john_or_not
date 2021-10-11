@@ -10,10 +10,6 @@ import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import com.jp.aboutme.databinding.FragmentGameBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
@@ -93,6 +89,8 @@ class GameFragment : Fragment() {data class Question(
                         binding.invalidateAll()
                     } else {
                         // We've won!  Navigate to the gameWonFragment.
+// Using directions to navigate to the GameWonFragment
+
 
                     }
                 } else {
