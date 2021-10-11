@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">AboutMe</string>
 
+    <string name="learn_more">Learn more…</string>
+
     <string name="iamjon">I am Jon or \'João'</string>
+    <string name="bio">Hi, my name is João, also Jon :D.
+\n\nI love videogames.
+\n\nKind of addicted to it, but not so much.
+\nFun fact is that I have only one physical game and it\'s my favorite Dark Souls 2.
+\n\nI am vegetarian since two years,
+\nAnd is very funny to discover new foods that I always denied like the famous Broccoli.
+\n\nI love to play sports, like Swimming, Running, Cycling and Bodybuilding too :)
+\nI think, though.\n\n</string>
 </resources>
