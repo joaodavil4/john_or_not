@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">AboutMe</string>
 
+    <string name="about">About</string>
     <string name="learn_more">Learn more…</string>
+    <string name="submit_button">Submit</string>
+
 
     <string name="iamjon">I am Jon or \'João\'</string>
     <string name="bio">Hi, my name is João, also Jon :D.

@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/navigation">
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment2">
 
+    <fragment
+        android:id="@+id/soulFragment"
+        android:name="com.jp.aboutme.main.SoulFragment"
+        android:label="SoulFragment" />
+    <fragment
+        android:id="@+id/titleFragment2"
+        android:name="com.jp.aboutme.main.TitleFragment"
+        android:label="TitleFragment" >
+        <action
+            android:id="@+id/action_titleFragment2_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.jp.aboutme.GameFragment"
+        android:label="GameFragment" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.jp.aboutme.AboutFragment.AboutFragment"
+        android:label="AboutFragment" />
 </navigation>
