@@ -15,13 +15,68 @@
         <action
             android:id="@+id/action_titleFragment2_to_gameFragment"
             app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_titleFragment2_to_gamesFragment2"
+            app:destination="@id/gamesFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/gameFragment"
         android:name="com.jp.aboutme.GameFragment"
         android:label="GameFragment" />
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.jp.aboutme.AboutFragment.AboutFragment"
+        android:name="com.jp.aboutme.AboutFragment"
         android:label="AboutFragment" />
+
+    <fragment
+        android:id="@+id/gamesFragment"
+        android:name="com.jp.aboutme.main.GamesFragment"
+        android:label="GamesFragment" >
+
+        <action
+            android:id="@+id/action_gamesFragment2_to_GTWGameFragment"
+            app:destination="@id/gtwgame_destination"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
+            app:popUpTo="@+id/title_destination" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/gtwgame_destination"
+        android:name="com.jp.aboutme.main.gtwgame.GTWGameFragment"
+        android:label="GTWGameFragment" >
+        <action
+            android:id="@+id/action_gtwgame_to_score"
+            app:destination="@id/score_destination"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
+            app:popUpTo="@+id/title_destination" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/score_destination"
+        android:name="com.jp.aboutme.main.gtwgame.score.ScoreFragment"
+        android:label="ScoreFragment" >
+        <action
+            android:id="@+id/action_restart"
+            app:destination="@+id/game_destination"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
+            app:popUpTo="@+id/title_destination" />
+        <argument
+            android:name="score"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
 </navigation>

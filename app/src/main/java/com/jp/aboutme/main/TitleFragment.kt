@@ -15,9 +15,6 @@ import com.jp.aboutme.databinding.FragmentTitleBinding
  * create an instance of this fragment.
  */
 class TitleFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {

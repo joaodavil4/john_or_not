@@ -9,6 +9,7 @@ import androidx.navigation.ui.NavigationUI
 import com.jp.aboutme.R
 import com.jp.aboutme.databinding.ActivityMainBinding
 import com.jp.aboutme.main.model.Me
+import timber.log.Timber
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         bindingObjects()
         setWidgets()
+        Timber.i("onCreate Called")
     }
 
     override fun onSupportNavigateUp(): Boolean {
